@@ -1,0 +1,110 @@
+
+
+
+body {
+    margin: 0;
+    font-family: "Mogra", system-ui;
+    background-color:rgb(250, 194, 225);
+    color: rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(223, 142, 193); 
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: sticky;
+    top: 0;
+
+}
+
+.mogra-regular {
+  font-family: "Mogra", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Mogra", system-ui;
+} 
+
+.Sobre {
+    display: flex;
+   align-items: center;
+    background-color: rgb(229, 177, 205);
+    color: rgb(255, 255, 255);
+     
+    }
+
+.Sobre p {
+    padding-right: 10px;
+    padding-left: 200px;
+     height: 200px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.minhaFoto {
+    height: 500px;
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    border-radius: 50%;
+   
+}
+
+.Projetos {
+    display: flex;
+   justify-content: space-between;
+}
+
+.imagemConstrução {
+    height: 400px;
+    width: 400px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+   
+  
+}
+
+.conftPink {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.Conftpink {
+    padding-left: 50px;
+
+}
+
+
+footer {
+align-items: center;
+height: 400px;
+display:flex ;
+text-align: center;
+flex-direction: column;
+justify-content: center;
+background-color: rgb(208, 129, 170);
+
+}
+
+.Contatos p {
+     height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
